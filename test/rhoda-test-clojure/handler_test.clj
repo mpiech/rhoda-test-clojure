@@ -1,7 +1,7 @@
 (ns rhoda-test-clojure.handler-test
   (:require [clojure.test :refer :all]
             [ring.mock.request :as mock]
-            [cpjhellodb.handler :refer :all]))
+            [rhoda-test-clojure.handler :refer :all]))
 
 (deftest test-app
   (testing "main route"
