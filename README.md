@@ -2,11 +2,11 @@
 
 Small Clojure sample app to experiment with RHODA (Red Hat OpenShift Database Access)
 
-oc new-project rhoda-test-clojur
-oc import-image mpiech/s2i-clojure --confirm
-oc new-build mpiech/s2i-clojure~https://github.com/mpiech/rhoda-test-clojure
-oc new-app rhoda-test-clojure
-oc expose service/rhoda-test-clojure
+      oc new-project rhoda-test-clojure
+      oc import-image mpiech/s2i-clojure --confirm
+      oc new-build mpiech/s2i-clojure~https://github.com/mpiech/rhoda-test-clojure
+      oc new-app rhoda-test-clojure
+      oc expose service/rhoda-test-clojure
 
 ## Prerequisites
 
