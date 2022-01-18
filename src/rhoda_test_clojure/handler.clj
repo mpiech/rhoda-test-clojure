@@ -180,7 +180,7 @@
 
 ;;; for index, simply show index.html with vars replaced
 
-(enlive/deftemplate index "rhoda-test-clojure/index.html"
+(enlive/deftemplate index "rhoda_test_clojure/index.html"
   []
   [:#gmap] (enlive/replace-vars {:gmapskey gmaps-key})
   )
