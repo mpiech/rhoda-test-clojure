@@ -2,7 +2,7 @@
 
 Small Clojure sample app to experiment with RHODA (Red Hat OpenShift Database Access)
 
-(This is a work in progress; there's not yet enough explanation of the data structure and/or sample data provided here yet to get you a fully running app, but you can at least see what the code looks like.)
+(This is a work in progress; there's not yet enough explanation of the data structure and/or sample data provided here to get you a fully running app, but you can at least see what the code looks like.)
 
 ## Running on OpenShift
 
