@@ -1,4 +1,4 @@
-# rhods-test-clojure
+# rhoda-test-clojure
 
 Small Clojure sample app to experiment with RHODA (Red Hat OpenShift Database Access)
 
